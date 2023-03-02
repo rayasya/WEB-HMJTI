@@ -1,0 +1,249 @@
+Pages
+
+======= Artikel =======
+# Read Artikel (datatable)
+- no
+- judul
+- kategori
+- isi
+- gambar
+- editor
+- tanggal penulisan
+- tanggal update
+- action (btn edit & delete)
+# Add Artikel (pake modal kl bisa biar ringkas)
+- judul
+- kategori (select option)
+- isi
+- gambar
+- editor (ikut session)
+- tanggal penulisan (input type="datetime-local")
+- tanggal update (auto)
+# Update artikel
+- judul
+- kategori (select option)
+- isi
+- gambar
+- editor (session)
+- tanggal update  (auto)
+# Delete artikel (modal)
+
+
+
+
+======= Komentar =======
+# read (datatable)
+- no
+- judul artikel
+- nama
+- email
+- komentar
+- tanggal
+- status (btn approve -> modal approve) or (btn delete -> modal delete)
+
+
+
+
+
+======= Pengurus =======
+# Read pengurus (datatable)
+- no
+- nim
+- nama
+- email
+- no hp
+- jabatan
+- biro
+- departemen
+- periode
+- foto
+- prodi
+- angkatan
+- action (btn edit & delete)
+# add pengurus (modal)
+- nim
+- nama
+- email
+- no hp
+- jabatan (select option)
+- biro (select option)
+- departemen (select option)
+- periode (select option)
+- foto
+- prodi (select option)
+- angkatan (select option)
+# edit pengurus (modal)
+- nim
+- nama
+- email
+- no hp
+- jabatan (select option)
+- biro (select option)
+- departemen (select option)
+- periode (select option)
+- foto
+- prodi (select option)
+- angkatan (select option)
+# delete (modal)
+
+
+
+
+
+
+
+======= Kritik dan Saran =======
+# read (datatable)
+- no
+- nama
+- email
+- kritik & saran
+- tanggal
+- action (btn delete)
+
+
+
+
+
+
+======= Form =======
+# read (datatable)
+- no
+- judul form
+- link form
+- tanggal
+- action (btn edit & delete)
+# add (modal)
+- judul form
+- link form (text area untuk embed google form)
+- tanggal (curent stamp)
+# edit (modal)
+- judul form
+- link form (text area untuk embed google form)
+- tanggal (curent stamp)
+# delete (modal)
+
+
+
+
+
+
+
+======= Data Master =======
+## Departemen
+# read (datatable)
+- no
+- departemen
+- action (btn edit & delete)
+# add (modal)
+- nama departemen
+# edit (modal)
+- nama departemen 
+# delete (modal)
+
+## Biro
+# read (datatable)
+- no
+- departemen
+- biro
+- action (btn edit & delete)
+# add (modal)
+- nama biro
+- departemen (select option)
+# edit (modal)
+- nama biro
+- departemen (select option)
+# delete (modal)
+
+## Jabatan
+# read (datatable)
+- no
+- jabatan
+- periode
+- action (btn edit & delete)
+# add (modal)
+- jabatan
+- periode 
+# edit (modal)
+- jabatan
+- periode
+# delete (modal)
+
+## Prodi
+# read (datatable)
+- no
+- prodi
+- golongan
+- angkatan
+- action (btn edit & delete)
+# add (modal)
+- prodi
+- golongan (select option)
+- angkatan (select option)
+# edit (modal)
+- prodi
+- golongan (select option)
+- angkatan (select option)
+# delete (modal)
+
+## Golongan
+# read (datatable)
+- no
+- golongan
+- action (btn edit & delete)
+# add (modal)
+- golongan
+# edit (modal)
+- golongan
+# delete (modal)
+
+## Angkatan
+# read (datatable)
+- no
+- angkatan
+- action (btn edit & delete)
+# add (modal)
+- angkatan
+# edit (modal)
+- angkatan 
+# delete (modal)
+
+## kategori
+# read (datatable)
+- no
+- kategori
+- action (btn edit & delete)
+# add (modal)
+- kategori
+# edit (modal)
+- kategori
+# delete (modal)
+
+
+
+======= User =======
+# read
+- no
+- nama
+- username
+- email
+- foto user
+# add (modal)
+- nama
+- username
+- email
+- password
+- foto user
+# delete (modal)
+
+
+
+======= Profile =======
+# update profile
+- nama
+- username (disable)
+- email (disable)
+- foto
+- password baru
+- retype password baru
+- password lama
