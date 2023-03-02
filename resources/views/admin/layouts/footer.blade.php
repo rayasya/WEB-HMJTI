@@ -10,7 +10,7 @@
 </div>
 
 <!-- General JS Scripts -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="{{asset('backend/modules/jquery.min.js')}}"></script>
 <script src="{{asset('backend/modules/popper.js')}}"></script>
 <script src="{{asset('backend/modules/tooltip.js')}}"></script>
 <script src="{{asset('backend/modules/bootstrap/js/bootstrap.min.js')}}"></script>
