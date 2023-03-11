@@ -112,8 +112,11 @@
                                     href="https://hmjti-polije.com/profile">Profil HMJTI</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="https://bso.hmjti-polije.com/" target="_blank">BSO HMJTI</a>
+                                <a class="nav-link" href="https://hmjti-polije.com/proker">Proker & Agenda</a>
                             </li>
+                            {{-- <li class="nav-item">
+                                <a class="nav-link" href="https://bso.hmjti-polije.com/" target="_blank">BSO HMJTI</a>
+                            </li> --}}
                             <li class="nav-item dropdown">
                                 <a class="nav-link  {{ request()->is('about-us') ? 'active' : '' }}" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     tentang kami
